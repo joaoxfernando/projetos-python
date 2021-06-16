@@ -56,7 +56,11 @@ while True:
         cpf_completo = cpf[:9] + '-' + cpf[-2:]
         cpf_completo = cpf_completo[0:3] + '.' + cpf_completo[3:6] + '.' + cpf_completo[6:9] + cpf_completo[9:]
         print(f'O número do CPF gerado foi: {cpf_completo}')
-        continuar = input('Deseja continuar? S/N: ')
+        continuar = input('Deseja gerar outro CPF? S/N: ')
         if continuar in 'Nn':
             print('\nObrigado por utilizar nosso programa. \nEspero que tenha gostado')
             break
+
+
+with open('cpfs.txt', 'a+') as file:
+    file.write(cpf_completo)
