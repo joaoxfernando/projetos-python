@@ -5,6 +5,7 @@
 - Fará a validação dos digitos do CPF seguindo o algoritmo encontrado logo abaixo.
 - Exibe o número do CPF gerado já com os digitos validados.
 - Pergunta se deseja gerar um novo CPF. 
+- Ao final, um arquivo chamado "cpfs.txt" será gerado com todos os números de CPFs gerados.
 
 ## ALGORITMO
 ```
