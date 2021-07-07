@@ -69,7 +69,8 @@ while True:
             continuar = input('Deseja validar outro CPF? S/N: ').lower()
 
             if continuar in 'Nn':
-                print('\nObrigado por utilizar nosso programa. \nEspero que tenha curtido!')
+                print('\nObrigado por utilizar nosso programa. \n'
+                      'Espero que tenha curtido!')
                 break
             elif continuar not in 'Ss' and 'Nn':
                 continuar = input('Deseja validar outro CPF? S/N: ').lower()
